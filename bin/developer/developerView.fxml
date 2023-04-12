@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="400.0" minWidth="500.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="developer.developerViewController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="285.0" layoutX="14.0" layoutY="96.0" stroke="BLACK" strokeType="INSIDE" width="480.0" />
+      <Label layoutX="138.0" layoutY="33.0" text="Meet the Developer" underline="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="30.0" layoutY="109.0" prefHeight="222.0" prefWidth="356.0" text="I,m Deevansh Goyal the developer of the&#10;project Blood Bank. This project has been &#10;implemented so tha it can help the associates &#10;arranging blood camp to secure and arrange &#10;there data in proper way. This project has &#10;been developed under guidance of &#10;Mr. Rajesh Bansal. ">
+         <font>
+            <Font size="16.0" />
+         </font></TextArea>
+      <ImageView fitHeight="104.0" fitWidth="93.0" layoutX="393.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Pictures/MPB_2672.JPG" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4d6363" height="26.0" opacity="0.75" stroke="BLACK" strokeType="INSIDE" width="506.0" />
+   </children>
+</AnchorPane>

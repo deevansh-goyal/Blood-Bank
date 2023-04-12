@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="500.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BloodStock.BloodStockViewController">
+   <children>
+      <Label layoutX="150.0" layoutY="62.0" text="Blood Units Available" textFill="#0b0606" underline="true">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ea2b32" height="43.0" layoutY="-1.0" opacity="0.63" stroke="BLACK" strokeType="INSIDE" width="506.0" />
+      <Label layoutX="118.0" layoutY="161.0" text="O+" textFill="#ec0c0c">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="194.0" text="O-" textFill="#ec0c0c">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="226.0" text="A+" textFill="#ec0c0c">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="260.0" text="A-" textFill="#ec0c0c">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="294.0" text="B+" textFill="#ec0c0c">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="328.0" text="B-" textFill="#ec0c0c">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="358.0" text="AB+" textFill="#ec0c0c">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="391.0" prefHeight="26.0" prefWidth="43.0" text="AB+" textFill="#ec0c0c">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="118.0" text="Blood Group" textFill="#fa2525" underline="true">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="118.0" text="Quantity" textFill="#151515" underline="true">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtOP" editable="false" layoutX="241.0" layoutY="160.0" />
+      <TextField fx:id="txtON" editable="false" layoutX="241.0" layoutY="194.0" />
+      <TextField fx:id="txtAP" editable="false" layoutX="241.0" layoutY="226.0" />
+      <TextField fx:id="txtAN" editable="false" layoutX="241.0" layoutY="260.0" />
+      <TextField fx:id="txtBP" editable="false" layoutX="241.0" layoutY="294.0" />
+      <TextField fx:id="txtBN" editable="false" layoutX="241.0" layoutY="328.0" />
+      <TextField fx:id="txtABP" editable="false" layoutX="241.0" layoutY="358.0" />
+      <TextField fx:id="txtABN" editable="false" layoutX="241.0" layoutY="391.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ea2b32" height="43.0" layoutY="459.0" opacity="0.63" stroke="BLACK" strokeType="INSIDE" width="506.0" />
+   </children>
+</AnchorPane>
